@@ -6,6 +6,6 @@ var xmlhttp = new XMLHttpRequest();
            document.getElementById("owner").text=myObj;
          }
        };
-       xmlhttp.open("GET","https://tcc.github.io/controllerinfo/" + document.getElementById("urlbar").value +".json", true);
+       xmlhttp.open("GET","https://turbinecc.github.io/controllerinfo/" + document.getElementById("urlbar").value +".json", true);
        xmlhttp.send();
      }
